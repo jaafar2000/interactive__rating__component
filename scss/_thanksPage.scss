@@ -1,0 +1,48 @@
+.box2{
+
+    width: 420px;
+    height: 420px;
+    background-color: $DarkBlue;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    &::after{
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-image: linear-gradient($DarkBlue,$VeryDarkBlue3);
+        z-index: -1;
+        
+    }
+
+
+    & .thank__img {
+        & img{
+            margin-bottom: 30px;
+        }
+    }
+    & .rater{
+        text-align: center;
+        background-color: $MediumGrey3;
+        border-radius: 30px;
+        padding: 5px 20px;
+        color: $Orange;
+        margin-bottom: 40px;
+
+    }
+    & .thank__info{
+        & h3{
+            color: $White;
+            margin-bottom: 25px;
+            font-size: 25px;
+        }
+        & p{
+            color: $MediumGrey;
+            margin: 0 40px;
+            text-align: center;
+        }
+    }
+}

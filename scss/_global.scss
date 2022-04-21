@@ -1,0 +1,40 @@
+* , *::after ,*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Overpass', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: $VeryDarkBlue;
+}
+body a{
+    font-family: 'Overpass', sans-serif;
+}
+
+.f__c__fs__c{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.f__c__c__c{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+}
+.f__c__sa__r{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.active{
+    color: $White !important;
+    background-color: $MediumGrey !important;
+}
