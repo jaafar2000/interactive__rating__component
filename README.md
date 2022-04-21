@@ -1,0 +1,1 @@
+# interactive__rating__component
